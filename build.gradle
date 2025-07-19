@@ -63,6 +63,9 @@ dependencies {
 
 	// SpringDoc OpenAPI / Swagger UI Dependency
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0'
+
+	//Redis Cache
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 }
 
 tasks.named('test') {
